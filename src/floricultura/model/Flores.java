@@ -1,10 +1,10 @@
 package floricultura.model;
 
-public class EstoqueFloresVirtual extends Floricultura{
+public class Flores extends ProdutosFloricultura{
 
 	private int estoqueVirtual;
 	
-	public EstoqueFloresVirtual(String nome, int quantidade, int tipo, float valor, int validade, int estoqueVirtual) {
+	public Flores(String nome, int quantidade, int tipo, float valor, int validade, int id, int estoqueVirtual) {
 		super(nome, quantidade, tipo, valor, validade);
 		this.estoqueVirtual = estoqueVirtual; 
 	}

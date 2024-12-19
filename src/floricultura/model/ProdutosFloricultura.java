@@ -1,6 +1,6 @@
 package floricultura.model;
 
-public abstract class Floricultura {
+public abstract class ProdutosFloricultura {
 
 	private String nome;
 	private int quantidade;
@@ -9,7 +9,7 @@ public abstract class Floricultura {
 	private int validade;
 	private int estoques;
 	
-	public Floricultura(String nome, int quantidade, int tipo, float valor, int validade) {
+	public ProdutosFloricultura(String nome, int quantidade, int tipo, float valor, int validade) {
 		this.nome = nome;
 		this.quantidade = quantidade;
 		this.tipo = tipo;

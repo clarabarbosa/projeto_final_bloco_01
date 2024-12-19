@@ -1,14 +1,14 @@
 package floricultura.repository;
 
-import floricultura.model.Floricultura;
+import floricultura.model.ProdutosFloricultura;
 
-public interface ContaRepository {
+public interface ProdutosRepository {
      
 	//Crud
 	public void procurarporNome(String nome);
 	public void listar();
-	public void cadastrar(Floricultura nome);
-	public void atualizar(Floricultura quantidade);
+	public void cadastrar(ProdutosFloricultura nome);
+	public void atualizar(ProdutosFloricultura quantidade);
 	public void excluir(int quantidade);
 	
 	//Métodos
