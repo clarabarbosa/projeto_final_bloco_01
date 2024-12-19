@@ -1,5 +1,5 @@
 package floricultura;
-
+import floricultura.model.Floricultura;
 import java.util.Scanner;
 
 public class Menu {
